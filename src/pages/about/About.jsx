@@ -1,5 +1,4 @@
-import React from "react";
-import AboutStyle from "./About.style";
+import AboutStyle from './About.style';
 
 const About = () => {
   return <div>About</div>;
