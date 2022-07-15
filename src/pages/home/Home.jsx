@@ -8,7 +8,7 @@ const Home = () => {
   const mealType = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
   const [query, setQuery] = useState("egg");
   const [selectedMeal, setSelectedMeal] = useState(mealType[0]);
-  const [recipes, setRecipes] = useState("");
+  const [recipes, setRecipes] = useState(null);
 
   const APP_ID = process.env.REACT_APP_APP_ID;
   const APP_KEY = process.env.REACT_APP_APP_KEY;
